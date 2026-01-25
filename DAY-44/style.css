@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width:100%
+}
+main{
+    background-color: #000000d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+button{
+    height: 100px;
+    width: 200px;
+    background-color: #bc6060;
+    text-shadow: #1e1313;
+    border-radius: 10px;
+    border: #0fff17 5px solid;
+   font-weight: 700;
+   font-size: x-large;
+   color: whitesmoke;
+   position: absolute;
+   z-index: 90;
+}  
+
+button:active{
+    scale: 1.1;
+    background-color: #3ecfe9;
+    text-decoration: solid;
+}
