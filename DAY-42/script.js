@@ -1,0 +1,17 @@
+var inc = document.querySelector('#inc')
+var h2 = document.querySelector('h2')
+var dec = document.querySelector('#dec')
+
+ var a=0
+
+inc.addEventListener('click', function() {
+  a++
+  h2.innerHTML=a
+})
+var a = 0
+dec.addEventListener('click',function(){
+    a--
+    h2.innerHTML = a
+})
+
+
