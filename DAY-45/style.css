@@ -11,7 +11,7 @@ html,body{
 .card{
     height: 350px;
     width: 450px;
-    background-color: #ff0000;
+    background-color: #f7eded;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,4 +30,31 @@ main{
     align-items: center;
     justify-content: center;
 
+}
+.outer{
+    height: 15px;
+    width: 100%;
+    background-color: #f3dadaaf;
+    border-radius: 5px;
+}
+.inner{
+    height: 100%;
+    width: 50px;
+    background-color: #00ff08;
+
+}
+
+
+
+
+.bottom h2{
+    font-size: 60px;
+}
+.bottom button{
+    padding:12px 25px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+
+    font-weight: 600;
 }
