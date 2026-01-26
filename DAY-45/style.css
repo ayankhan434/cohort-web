@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 350px;
+    width: 450px;
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 70px;
+    width: 155px;
+    background-color: #fff;
+    
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
