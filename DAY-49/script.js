@@ -1,7 +1,5 @@
-var allh1 = document.querySelectorAll('h1')
-
-allh1.forEach(function(elem){
-    console.log(elem.innerHTML);
+var allElem=document.querySelectorAll('.elem');
+allElem.forEach(function(elem){
+    console.log(elem.childNodes);
+    
 })
-
-
